@@ -112,7 +112,7 @@
                                                 <th>DNI</th>
                                                 <th>Nombre</th>
                                                 <th>Apellido</th>
-                                                <th>Usuario</th>
+                                                <th>E-mail</th>
                                                 <th>Accion</th>
                                             </tr>
                                         </thead>
@@ -151,7 +151,7 @@
                                                 <th>DNI</th>
                                                 <th>Nombre</th>
                                                 <th>Apellido</th>
-                                                <th>Usuario</th>
+                                                <th>E-mail</th>
                                                 <th>Accion</th>
                                             </tr>
                                         </tfoot>

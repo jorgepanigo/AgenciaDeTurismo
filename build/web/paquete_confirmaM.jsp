@@ -157,7 +157,7 @@
                                             <td style=""><%= s.getNombre()%></td>
                                             <td style=""><%= controlL.dateAString(s.getFechaServicio())%></td>
                                             <td style=""><%= s.getDestino()%></td>
-                                            <td style="text-align: right;"><%= controlL.verDosDecinales(s.getCosto())%></td>
+                                            <td style="text-align: right;"><%="$ "+ controlL.verDosDecinales(s.getCosto())%></td>
                                         </tr>
                                         
                                         
@@ -177,21 +177,21 @@
                                         <td style=""></td>
                                         <td style=""></td>
                                         <td style="text-align: right;">SubTotal</td>
-                                        <td style="text-align: right;">$ <%= controlL.verDosDecinales(costoPaquete)%></td>
+                                        <td style="text-align: right;">$ <%="$ "+  controlL.verDosDecinales(costoPaquete)%></td>
                                     </tr>
                                     <tr>
                                         <td style=""></td>
                                         <td style=""></td>
                                         <td style=""></td>
                                         <td style="text-align: right;">Descuentos</td>
-                                        <td style="text-align: right;">$ <%= controlL.verDosDecinales(costoPaquete*0.10)%></td>
+                                        <td style="text-align: right;">$ <%="$ "+  controlL.verDosDecinales(costoPaquete*0.10)%></td>
                                     </tr>
                                     <tr>
                                         <td style=""></td>
                                         <td style=""></td>
                                         <td style=""></td>
                                         <td style="text-align: right;">Total</td>
-                                        <td style="text-align: right;">$ <%= controlL.verDosDecinales(costoPaquete*0.90)%></td>
+                                        <td style="text-align: right;">$ <%="$ "+  controlL.verDosDecinales(costoPaquete*0.90)%></td>
                                     </tr>
                                     
                                     

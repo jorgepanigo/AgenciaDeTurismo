@@ -95,10 +95,12 @@
                                     <form action="SvClienteM" method="POST">
                                         
                                          <%
-                                            int idCliente = Integer.parseInt(request.getParameter("cliente"));
+                                            //Recibo 
+                                             int idCliente = Integer.parseInt(request.getParameter("cliente"));
                                             
                                             ControladoraLogica controlL = new ControladoraLogica();
                                             
+                                            //Busco el cliente pasado por parametro
                                             Cliente c = controlL.clienteF(idCliente); 
  
                                             %>

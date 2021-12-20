@@ -177,7 +177,7 @@
                                             <td style=""><%= s.getNombre()%></td>
                                             <td style=""><%= controlL.dateAString(s.getFechaServicio())%></td>
                                             <td style=""><%= s.getDestino()%></td>
-                                            <td style="text-align: right;"><%= s.getCosto()%></td>
+                                            <td style="text-align: right;"><%= "$ "+controlL.verDosDecinales(s.getCosto())%></td>
                                         </tr>
                                         
                                         
@@ -192,7 +192,7 @@
                                         <td style=""></td>
                                         <td style=""></td>
                                         <td style="text-align: right;">Total</td>
-                                        <td style="text-align: right;">$ <%= p.getCosto()%></td>
+                                        <td style="text-align: right;"><%= "$ "+controlL.verDosDecinales(p.getCosto()) %></td>
                                     </tr>
                                     
                                     
