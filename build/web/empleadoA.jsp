@@ -33,7 +33,7 @@
         Check Login
     ********************-->  
     <%
-        HttpSession miSession = request.getSession(true);
+       HttpSession miSession = request.getSession(true);
 
         if(miSession.getAttribute("usuario") == null)
         {

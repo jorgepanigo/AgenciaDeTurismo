@@ -360,6 +360,7 @@ public class ControladoraLogica {
     public List<Venta> ventaL() {
         return controlP.listaVentas();
     }
+    
 
     public Venta ventaF(int id) {
         return controlP.buscaVenta(id);
